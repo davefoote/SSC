@@ -1,0 +1,29 @@
+.header {
+  margin: 3px 0;
+  padding: -3px 0;
+  border-top: 5px solid #B3DDF2;
+  border-bottom: 5px solid #B3DDF2;
+}
+
+#main-title {
+  display: inline-block;
+
+  font-size: 25px;
+  font-weight: bold;
+
+  line-height: 55px;
+}
+
+#main-title a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-title img {
+  vertical-align: middle;
+}
+
+.nav li a {
+  font-size: 25px; 
+  margin: 0 5px;
+}
