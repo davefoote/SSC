@@ -1,5 +1,5 @@
 .header {
-  margin: 3px 0;
+  margin: 10px 0; 
   padding: -3px 0;
   border-top: 5px solid #B3DDF2;
   border-bottom: 5px solid #B3DDF2;
@@ -26,4 +26,17 @@
 .nav li a {
   font-size: 25px; 
   margin: 0 5px;
+}
+
+.jumbotron {
+  background-image: url("images/home_header.jpg");
+  background-size: 100%;
+  color: #fff;
+  min-height: 300px;
+}
+
+#push,
+#footer {
+  height: 60px;
+  text-align: right;
 }
