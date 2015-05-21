@@ -26,10 +26,11 @@
 .nav li a {
   font-size: 25px; 
   margin: 0 5px;
+  border-radius: 0;
 }
 
 .jumbotron {
-  background-image: url("images/home_header.jpg");
+  background-image: url("/static/images/home_header.jpg");
   background-size: 100%;
   color: #fff;
   min-height: 300px;
