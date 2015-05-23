@@ -1,34 +1,37 @@
 {% extends "layout.html" %}
+<!DOCTYPE html>
 {% block content %}
+
+
   <div class="jumbotron">
     <h2>Welcome</h2>
     <p>At South Side Civic we hope to build a community of south siders interested in open data and its civic applications.
        Our events are held concurrently with the UChicago's hack night at the Chicago Innovation Exchange on 53rd street from 5-8pm.</p>
   </div>
+
   <div class="row">
     <div class="col-sm-8">
-      <h2>Events</h2>
+      <h2>Upcoming events</h2>
 
-      <h4>Rayid Ghani</h4>
-      <h5>Friday, May 15, 2015 at CIE</h5>
-      
-      <p>Rayid Ghani serves as a Chicago Harris Senior Fellow and as Chief Data Scientist for the Computation Institute’s Urban Center for Computation and Data. Prior to joining UChicago, Ghani was chief scientist of the highly regarded Obama for America data analytics team.</p>
-      <p>Ghani analyzes city data and builds complex computer models that simulate the impact of policy decisions and urban development.  In addition, he works with Chicago Harris on an array of efforts, including the Master's of Science in Computational Analysis and Public Policy program. Ghani’s first project with UChicago was The Eric and Wendy Schmidt Data Science for the Social Good Summer Fellowship, where fellows with backgrounds in computer science, programming and statistics spent three months in Chicago working with academic and business advisors on projects of social importance.</p>
-      <p><strong><a href="http://www.ci.anl.gov/profile/384">Presenter Bio</a></strong></p>
+      {% for up in upcoming %}
+        <h2>{{ up.title }}</h2>
+        <h5>{{ up.date }}</h5>
+        
+        {% filter markdown %}
+        {{ up.description.decode("utf-8") }}
+        {% endfilter %}
+
+        <p><strong><a href="{{ up.website }}">Presenter Bio</a></strong></p>
 
       <p></p>
-      
-      <h4>Matt Gee</h4>
-      <h5>Friday, May 29, 2015</h5>
+      {% endfor %}
 
-      <p>Matt Gee is a Senior Researcher at the University of Chicago's Urban Center for Computation and Data and the Center for Data Science and Public Policy.</p>
-      <p>He is the co-founder of the Eric and Wendy Schmidt Data Science for Social Good fellowship. Matt is the lead scientist on various projects aimed at understanding energy markets and creating systems for continuous energy policy learning, such as the Environmental Defense Fund's Open Energy Data initiative, New York's Open Energy Efficiency Meter, the City of San Francisco's Sustainable Systems Framework, and the City of Chicago's Neighborhood Energy Challenge. He serves as an advisor to Code for America, DataKind, the Chicago School of Data, the Census' City Open Data Challenge and is a member of the World Bank's Partnership for Open Data. He has worked at US Treasury's Office of Energy and Environment and has founded several companies, including residential energy efficiency finance company Effortless Energy.</p
-      <p><strong><a href="http://harris.uchicago.edu/directory/phd-students/matthew_gee">Presenter Bio</a></strong></p>
+      
 
     </div>
     <div class="col-sm-4">
       <h3>Contact</h3>        
-      <p>Questions? Contact us:.</p>
+      <p>Questions? Contact us:</p>
       <ul>
           <li><a href="mailto:amr@cs.uchicago.edu">Anne Rogers</a></li>
           <li><a href="mailto:mitsueiwata@uchicago.edu">Mitsue Iwata</a></li>
@@ -36,4 +39,8 @@
       </ul>
     </div>
   </div>
+</div>
+
 {% endblock %}
+
+
