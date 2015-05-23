@@ -1,10 +1,1 @@
-Derek Eder
-
-Friday, April 3, 2015
-
-<p>Derek Eder will talk about the history of open government in Chicago and orient you to the current melange of hackers, journalists, researchers, policy wonks, non-profits, foundations and governments that make up the most renowned and productive civic tech community in the country. He'll also highlight several civic apps that he and others have built over the years.</p>
-
-<p>Derek has been building websites in Chicago since 2005. He is the owner of DataMade, an open government and open data web consulting company, co-founder of Open City, a collective that makes
-civic apps with open data, and organizer for the Open Gov Hack Night, a weekly event for building civic technology with open data. He has collaborated on over a dozen open source civic apps including 2nd City Zoning, Chicago Lobbyists, Look at Cook, Chicago Councilmatic and Dedupe.</p>
-
-http://derekeder.com/
+Derek Eder|Friday, April 3, 2015|Derek Eder will talk about the history of open government in Chicago and orient you to the current melange of hackers, journalists, researchers, policy wonks, non-profits, foundations and governments that make up the most renowned and productive civic tech community in the country. He'll also highlight several civic apps that he and others have built over the years. Derek has been building websites in Chicago since 2005. He is the owner of DataMade, an open government and open data web consulting company, co-founder of Open City, a collective that makes civic apps with open data, and organizer for the Open Gov Hack Night, a weekly event for building civic technology with open data. He has collaborated on over a dozen open source civic apps including 2nd City Zoning, Chicago Lobbyists, Look at Cook, Chicago Councilmatic and Dedupe.|http://derekeder.com/
