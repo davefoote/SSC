@@ -56,9 +56,5 @@ def past_events():
 	past.reverse()
 	return render_template('past_events.html', past=past)
 
-@app.route('/events')
-def events():
-   return render_template('events.html', events = events)
-
 if __name__ == '__main__':
 	app.run()
