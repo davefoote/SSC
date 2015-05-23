@@ -1,9 +1,12 @@
 from flask import Flask, render_template, request
 from datetime import datetime
+from flaskext.markdown import Markdown
 import os
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
+
+Markdown(app)
 
 path = 'static/events'
 

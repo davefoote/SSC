@@ -16,9 +16,11 @@
       {% for up in upcoming %}
         <h2>{{ up.title }}</h2>
         <h5>{{ up.date }}</h5>
-      
+        
+        {% filter markdown %}
         {{ up.description }}
-      
+        {% endfilter %}
+
         <p><strong><a href="{{ up.website }}">Presenter Bio</a></strong></p>
 
       <p></p>
