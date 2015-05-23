@@ -11,7 +11,7 @@
         <h5>{{ p.date }}</h5>
 
         {% filter markdown %}
-        {{ p.description }}
+        {{ p.description.decode("utf-8") }}
         {% endfilter %}
       
         <p><strong><a href="{{ p.website }}">Presenter Bio</a></strong></p>
