@@ -7,5 +7,9 @@ app.config['DEBUG'] = True
 def root():
    return render_template('index.html')
 
+@app.route('/events')
+def events():
+   return render_template('events.html', events = events)
+
 if __name__ == '__main__':
    app.run()
