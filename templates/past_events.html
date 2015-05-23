@@ -9,7 +9,10 @@
       {% for p in past %}
         <h2>{{ p.title }}</h2>
         <h5>{{ p.date }}</h5>
-      
+
+        {% filter markdown %}
+        {{ p.description }}
+        {% endfilter %}
       
         <p><strong><a href="{{ p.website }}">Presenter Bio</a></strong></p>
 
