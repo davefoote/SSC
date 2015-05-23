@@ -3,21 +3,24 @@
 {% block content %}
 
 <div class="row">
-    <div class="col-sm-8">
-      <h2>Past events</h2>
-
-      {% for p in past %}
-        <h2>{{ p.title }}</h2>
-        <h5>{{ p.date }}</h5>
-
-        {% filter markdown %}
-        {{ p.description.decode("utf-8") }}
-        {% endfilter %}
-      
-        <p><strong><a href="{{ p.website }}">Presenter Bio</a></strong></p>
-
-      <p></p>
-      {% endfor %}
+    <h1>Past events</h1>
+</div>
+{% for event in past %}
+   <div class="row"> 
+      <div class="col-sm-3">
+         <strong>{{ event.title }}</strong>
+      </div>
+      <div class="col-sm-2">
+         {{ event.date }}
+      </div>
+      <div class="col-sm-7">
+         {% filter markdown %}
+         {{ event.description.decode("utf-8") }}
+         {% endfilter %}
+         <p><strong><a href="{{ event.website }}">Presenter Bio</a></strong></p>
+      </div>
+   </div>
+{% endfor %}
 
 
 {% endblock %}
