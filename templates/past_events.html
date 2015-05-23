@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+<!DOCTYPE html>
+{% block content %}
+
+<div class="row">
+    <div class="col-sm-8">
+      <h2>Past events</h2>
+
+      {% for p in past %}
+        <h2>{{ p.title }}</h2>
+        <h5>{{ p.date }}</h5>
+      
+      
+        <p><strong><a href="{{ p.website }}">Presenter Bio</a></strong></p>
+
+      <p></p>
+      {% endfor %}
+
+
+{% endblock %}
