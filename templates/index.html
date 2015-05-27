@@ -4,9 +4,11 @@
 
 
   <div class="jumbotron">
+    <div class="color-layer">
     <h2>Welcome</h2>
     <p>At South Side Civic we hope to build a community of south siders interested in open data and its civic applications.
        Our events are held concurrently with the UChicago's hack night at the Chicago Innovation Exchange on 53rd street from 5-8pm.</p>
+    </div>
   </div>
 
   <div class="row">
@@ -14,14 +16,16 @@
       <h2>Upcoming events</h2>
 
       {% for up in upcoming %}
-        <h2>{{ up.title }}</h2>
-        <h5>{{ up.date }}</h5>
+        <h3>{{ up.title }}</h3>
+        <strong>{{ up.date }}</strong>
         
         {% filter markdown %}
         {{ up.description.decode("utf-8") }}
         {% endfilter %}
-
+        
+        {% if up.website %}
         <p><strong><a href="{{ up.website }}">Presenter Bio</a></strong></p>
+        {% endif %}
 
       <p></p>
       {% endfor %}
