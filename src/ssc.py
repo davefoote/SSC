@@ -57,4 +57,4 @@ def past_events():
 	return render_template('past_events.html', past=past, event_flag = True)
 
 if __name__ == '__main__':
-	app.run()
+	app.run(host='0.0.0.0')
