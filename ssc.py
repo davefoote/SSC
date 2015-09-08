@@ -20,10 +20,14 @@ def get_events_lists():
 		year, mon, day = int(f[0:4]), int(f[5:7]), int(f[8:10])
 		if datetime(year,mon,day)<present:
 			event_dict = file_to_dict(f)
+                        event_dict['filename'] = f
 			past.append(event_dict)
 		else:
 			event_dict = file_to_dict(f)
+                        event_dict['filename'] = f
 			upcoming.append(event_dict)
+        upcoming = sorted(upcoming, key=lambda event: event['filename'])
+        past = sorted(past, key=lambda event: event['filename'])
 	return upcoming, past
 
 
