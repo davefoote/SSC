@@ -53,6 +53,13 @@ def root():
 	upcoming, past = get_events_lists()
 	return render_template('index.html', upcoming=upcoming)
 
+@app.route('/about')
+def about():
+	return render_template('about.html')
+
+@app.route('/hackathon')
+def hackathon():
+	return render_template('hackathon.html')
 
 @app.route('/past_events')
 def past_events():
@@ -64,10 +71,6 @@ def past_events():
 def contact():
 	return render_template('contact.html')
 
-
-@app.route('/about')
-def about():
-	return render_template('about.html')
 
 @app.route('/error')
 def error():
