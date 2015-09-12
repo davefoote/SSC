@@ -20,7 +20,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {% for event in past %}
    <div class="row" style="border-top: 1px solid #EEE;padding-top:5px;"> 
       <div class="col-sm-2">
+         {% if event.website %}
+         <strong><a href="{{ event.website }}" style="color:#87caeb">{{ event.title }}</a></strong>
+         {% else %}
          <strong>{{ event.title }}</strong>
+         {% endif %}
+
       </div>
       <div class="col-sm-2">
          {{ event.date }}
@@ -29,9 +34,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
          {% filter markdown %}
          {{ event.description.decode("utf-8") }}
          {% endfilter %}
-         {% if event.website %}
-         <p><strong><a href="{{ event.website }}">Presenter Bio</a></strong></p>
-         {% endif %}
+         
       </div>
    </div>
 {% endfor %}

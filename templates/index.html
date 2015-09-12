@@ -24,37 +24,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </div>
 <!-- jumbotron -->
 
+<!--start-upcoming-->
+  <div class="upcoming">
+    <div class="upcoming-main">
+      <h3>Upcoming Events</h3>
+      <div class="upcoming-top">
 
-  <div class="row">
-    <div class="col-sm-8 about">
-    <h2 style="margin-left:0;">Upcoming events</h2>
+        <div class="col-lg-13">
+          {% for up in upcoming %}
+             {% if up.website %}
+             <strong><a href="{{ up.website }}" style="color:#87caeb">{{ up.title }}</a></strong>
+             {% else %}
+             <h4>{{ up.title }}</h4>
+             {% endif %}
 
-      {% for up in upcoming %}
-        <h3>{{ up.title }}</h3>
-        <strong>{{ up.date }}</strong>
-        
-        {% filter markdown %}
-        {{ up.description.decode("utf-8") }}
-        {% endfilter %}
-        
-        {% if up.website %}
-        <p><strong><a href="{{ up.website }}">Presenter Bio</a></strong></p>
-        {% endif %}
-
-      <p></p>
-      {% endfor %}
-  </div>
-    <div class="col-sm-4">
-    <h3>Contact</h3>        
-      <p>Questions? Contact us:</p>
-      <ul>
-          <li><a href="mailto:amr@cs.uchicago.edu">Anne Rogers</a></li>
-          <li><a href="mailto:mitsueiwata@uchicago.edu">Mitsue Iwata</a></li>
-          <li><a href="mailto:bridgit.donnelly@gmail.com">Bridgit Donnelly</a></li>
-      </ul>
+            <strong>{{ up.date }}</strong>
+            
+            {% filter markdown %}
+            {{ up.description.decode("utf-8") }}
+            {% endfilter %}
+            
+          {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+      </div>
     </div>
-
   </div>
+<!--end-upcoming-->
+
+
 </div>
 </body>
 
