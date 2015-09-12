@@ -44,22 +44,43 @@
               </script>
             <!-- script-for-nav --> 
           </div>
-            <div class="clearfix"> </div>
-      </div>
-
+          <div class="clearfix"> </div>
+    </div>
   <!-- header -->
 
 
 
+  {% block content %} {% endblock %}
 
-  {% block content %}{% endblock %}
   
-<div class="container">
-  <div id="footer">
-    <p class="muted credit">Copyright 2015 South Side Civic.</p>
+
+<!-- footer -->
+  <div class="footer">
+    <div class="container">
+      <div class="foot-left">
+        <div class="foot-nav">
+          <ul>
+            <li{% if home_flag %} class="active" {% endif %}><a href="/" data-hover="HOME">home</a></li>
+                <li{% if about_flag %} class="active" {% endif %}><a href="/about" data-hover="ABOUT US">about us</a></li>
+                <li{% if hack_flag %} class="active" {% endif %}><a href="/hackathon" data-hover="CIVIC HACKATHON">civic hackathon</a></li>
+                <li{% if event_flag %} class="active" {% endif %}><a href="/past_events" data-hover="EVENTS">events</a></li>
+                <li{% if cont_flag %} class="active" {% endif %}><a href="/contact" data-hover="CONTACT US">contact us</a></li>
+              <div class="clearfix"> </div>
+          </ul>
+        </div>
+        <p>Copyrights © 2015 South Side Civic All rights reserved | Template by <a href="http://w3layouts.com/">&nbsp; W3layouts</a></p>
+      </div>
+      <div class="foot-right">
+        <a href="/about"><img src="static/images/southsidecivic_logo_foot.png" class="img-responsive" alt=""></a>
+      </div>
+      <div class="clearfix"> </div>
+    </div>
   </div>
-</div>
+<!-- footer -->
+
 
 </body>
+
+
 </html>
 

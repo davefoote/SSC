@@ -335,7 +335,7 @@ i.rss:hover {
   text-decoration: none;
 }
 .foot-nav li a:hover,.foot-nav ul li.active a{
-  color: #B3DDF2;
+  color: #FF0000;
 }
 .foot-left {
   float: left;
@@ -666,6 +666,9 @@ div#portfoliolist {
 }
 .about-top{
 	margin-top:3%;
+}
+.about-bottom{
+  margin-bottom:3%;
 }
 .about-left img{
 	width:100%;
@@ -1176,7 +1179,7 @@ i.arws {
 }
 .foot-right {
   float: none;
-  text-align: center;
+  text-align: left;
 }
 .footer p {
   font-size: 0.875em;

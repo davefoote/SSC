@@ -25,7 +25,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <div class="col-sm-2">
          {{ event.date }}
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-8 about-bottom">
          {% filter markdown %}
          {{ event.description.decode("utf-8") }}
          {% endfilter %}
@@ -36,6 +36,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
    </div>
 {% endfor %}
 
+</div>
 
 </body>
 {% endblock %}
