@@ -51,14 +51,31 @@ def file_to_dict(filename):
 @app.route('/')
 def root():
 	upcoming, past = get_events_lists()
-	return render_template('index.html', upcoming=upcoming)
+	return render_template('index.html', upcoming=upcoming, home_flag = True)
 
+@app.route('/about')
+def about():
+	return render_template('about.html', about_flag = True)
+
+@app.route('/hackathon')
+def hackathon():
+	return render_template('hackathon.html', hack_flag = True)
 
 @app.route('/past_events')
 def past_events():
 	upcoming, past = get_events_lists()
 	past.reverse()
 	return render_template('past_events.html', past=past, event_flag = True)
+
+@app.route('/contact')
+def contact():
+	return render_template('contact.html', cont_flag = True)
+
+
+@app.route('/error')
+def error():
+	return render_template('404.html')
+
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0')

@@ -1,6 +1,16 @@
 {% extends "layout.html" %}
-<!DOCTYPE html>
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
+<!DOCTYPE HTML>
+<html>
 {% block content %}
+<body>
 
 <div class="row">
 <div class="col-sm-12">
@@ -10,21 +20,29 @@
 {% for event in past %}
    <div class="row" style="border-top: 1px solid #EEE;padding-top:5px;"> 
       <div class="col-sm-2">
+         {% if event.website %}
+         <strong><a href="{{ event.website }}" style="color:#87caeb">{{ event.title }}</a></strong>
+         {% else %}
          <strong>{{ event.title }}</strong>
+         {% endif %}
+
       </div>
       <div class="col-sm-2">
          {{ event.date }}
       </div>
-      <div class="col-sm-8">
+      <div class="col-sm-8 about-bottom">
          {% filter markdown %}
          {{ event.description.decode("utf-8") }}
          {% endfilter %}
-         {% if event.website %}
-         <p><strong><a href="{{ event.website }}">Presenter Bio</a></strong></p>
-         {% endif %}
+         
       </div>
    </div>
 {% endfor %}
 
+</div>
 
+</body>
 {% endblock %}
+
+</html>
+

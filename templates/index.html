@@ -1,9 +1,20 @@
 {% extends "layout.html" %}
+
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+
 <!DOCTYPE html>
+<html>
+  
 {% block content %}
+<body>
+<!-- jumbotron -->
 
-
-  <div class="jumbotron">
+  <div class="jumbotron" class="img-responsive" alt="">
     <div class="transbox">
     <h2>Welcome</h2>
     <p>At South Side Civic we hope to build a community of south siders interested in open data and its civic applications.
@@ -13,6 +24,7 @@
   </div>
 <!-- jumbotron -->
 
+<<<<<<< HEAD
   <div class="row">
 
     <div class="col-sm-8">
@@ -42,9 +54,39 @@
           <li><a href="mailto:mitsueiwata@uchicago.edu">Mitsue Iwata</a></li>
           <li><a href="mailto:bridgit.donnelly@gmail.com">Bridgit Donnelly</a></li>
       </ul>
+=======
+<!--start-upcoming-->
+  <div class="upcoming">
+    <div class="upcoming-main">
+      <h3>Upcoming Events</h3>
+      <div class="upcoming-top">
+
+        <div class="col-lg-13">
+          {% for up in upcoming %}
+             {% if up.website %}
+             <strong><a href="{{ up.website }}" style="color:#87caeb">{{ up.title }}</a></strong>
+             {% else %}
+             <h4>{{ up.title }}</h4>
+             {% endif %}
+
+            <strong>{{ up.date }}</strong>
+            
+            {% filter markdown %}
+            {{ up.description.decode("utf-8") }}
+            {% endfilter %}
+            
+          {% endfor %}
+        </div>
+        <div class="clearfix"></div>
+      </div>
+>>>>>>> bootstrap
     </div>
   </div>
+<!--end-upcoming-->
+
+
 </div>
+</body>
 
 
 
@@ -53,4 +95,4 @@
 
 {% endblock %}
 
-
+</html>
