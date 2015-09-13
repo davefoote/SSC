@@ -48,6 +48,40 @@ def file_to_dict(filename):
 	return file_dict
 
 
+def schedule_to_dict():
+	path_hack = path + '/hackathon' 
+	for f in os.listdir(path_hack):
+		mon, day = int(f[0:2]), int(f[3:5])
+		print mon, day
+		if datetime(year,mon,day)<present:
+			event_dict = file_to_dict(f)
+                        event_dict['filename'] = f
+			past.append(event_dict)
+		else:
+			event_dict = file_to_dict(f)
+                        event_dict['filename'] = f
+			upcoming.append(event_dict)
+        upcoming = sorted(upcoming, key=lambda event: event['filename'])
+        past = sorted(past, key=lambda event: event['filename'])
+	return upcoming, past
+
+
+
+	file_dict = {}
+	with open(os.path.join(path, filename)) as f:
+		content = f.read().split('|')
+		if len(content) < 4: 
+			file_dict['title']=content[0]
+			file_dict['date']=content[1]
+			file_dict['description']=content[2]
+		else:
+			file_dict['title']=content[0]
+			file_dict['date']=content[1]
+			file_dict['description']=content[2]
+			file_dict['website']=content[3]
+	return file_dict
+
+
 @app.route('/')
 def root():
 	upcoming, past = get_events_lists()
@@ -80,3 +114,4 @@ def error():
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0')
+	#print schedule_to_dict()
