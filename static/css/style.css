@@ -157,6 +157,96 @@ ul a:focus {
 }
 
 
+
+.partner {
+  background-color: #f8f8f8;
+}
+.partner .partner-box {
+  display: block;
+  opacity: 0.7;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.partner .partner-box:hover {
+  opacity: 1;
+}
+.partner .partner-box-1 {
+  background: url("../images/IOP_logo.jpg") no-repeat center center/contain;
+}
+.partner .partner-box-2 {
+  background: url("../images/cs_logo.png") no-repeat center center/contain;
+}
+.partner .partner-box-3 {
+  background: url("../images/Harris_logo.jpg") no-repeat center center/contain;
+}
+.partner .partner-box-4 {
+  background: url(../images/partner/partner-4.png) no-repeat center center/contain;
+}
+.partner .partner-box-5 {
+  background: url(../images/partner/partner-5.png) no-repeat center center/contain;
+}
+.partner .partner-box-6 {
+  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+}
+.partner .partner-box-7 {
+  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+}
+.partner .partner-box-8 {
+  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+}
+
+
+
+
+
+
+
+
+/* 
+ * 6.8 Section: FAQ
+ */
+.faq .panel-heading {
+  cursor: pointer;
+}
+.faq .faq-toggle.collapsed::before {
+  font-family: "Ionicons";
+  content: "\f218";
+  -webkit-transition: 0.5s linear ease-out;
+          transition: 0.5s linear ease-out;
+  position: absolute;
+  left: 15px;
+}
+.faq .faq-toggle::before {
+  position: absolute;
+  left: 15px;
+  font-family: "Ionicons";
+  content: "\f209";
+}
+.faq .panel-group .panel + .panel {
+  margin-top: 15px;
+}
+.faq .panel-default > .panel-heading {
+  color: #FFF;
+  background-color: #000000;
+  border-color: #000;
+  border-radius: 0;
+  padding: 0;
+}
+.faq .panel-default > .panel-heading a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px 15px 35px;
+}
+
+
+
+
+
+
 /* 
  * 5.0 Site Header
  */
