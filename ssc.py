@@ -59,7 +59,8 @@ def about():
 
 @app.route('/hackathon')
 def hackathon():
-	return render_template('hackathon.html', hack_flag = True)
+	#return render_template('hackathon.html', hack_flag = True)
+	return render_template('hack.html', hack_flag = True)
 
 @app.route('/past_events')
 def past_events():
