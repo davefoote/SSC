@@ -24,37 +24,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   </div>
 <!-- jumbotron -->
 
-<<<<<<< HEAD
-  <div class="row">
-
-    <div class="col-sm-8">
-    <h2 style="margin-left:0;">Upcoming events</h2>
-
-      {% for up in upcoming %}
-        <h3>{{ up.title }}</h3>
-        <strong>{{ up.date }}</strong>
-        
-        {% filter markdown %}
-        {{ up.description.decode("utf-8") }}
-        {% endfilter %}
-        
-        {% if up.website %}
-        <p><strong><a href="{{ up.website }}">Presenter Bio</a></strong></p>
-        {% endif %}
-
-      <p></p>
-      {% endfor %}
-
-    </div>
-    <div class="col-sm-4">
-      <h3>Contact</h3>        
-      <p>Questions? Contact us:</p>
-      <ul>
-          <li><a href="mailto:amr@cs.uchicago.edu">Anne Rogers</a></li>
-          <li><a href="mailto:mitsueiwata@uchicago.edu">Mitsue Iwata</a></li>
-          <li><a href="mailto:bridgit.donnelly@gmail.com">Bridgit Donnelly</a></li>
-      </ul>
-=======
 <!--start-upcoming-->
   <div class="upcoming">
     <div class="upcoming-main">
@@ -79,7 +48,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         </div>
         <div class="clearfix"></div>
       </div>
->>>>>>> bootstrap
     </div>
   </div>
 <!--end-upcoming-->
@@ -87,11 +55,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 </div>
 </body>
-
-
-
-  </div>
-</div>
 
 {% endblock %}
 
