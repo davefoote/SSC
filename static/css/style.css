@@ -1,3 +1,5 @@
+
+
 /*Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -6,7 +8,14 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
-p {margin: 0;}
+p {
+  margin: 0;
+  margin-bottom: 10px;
+}
+ul li {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
 html,body{
 	font-family: 'Open Sans', sans-serif;
 }
@@ -17,6 +26,20 @@ body a{
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
+
+.section-title {
+    color: #313131;
+    letter-spacing: 1px;
+    margin: 0px 0px 60px;
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+    padding-top: 10px;
+}
+
+
+
+
 .header-top {
   padding: 1em;
   background: #090909;
@@ -136,6 +159,148 @@ ul a:focus {
   margin: 3%;
   color:#000000;
 }
+
+
+
+.partner {
+  background-color: #FFF;
+}
+.partner .partner-box {
+  display: block;
+  opacity: 1;
+  height: 150px;
+  width: 150px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.partner .partner-box:hover {
+  opacity: 1;
+}
+.partner .partner-box-1 {
+  background: url("../images/IOP_logo.jpg") no-repeat center center/contain;
+}
+.partner .partner-box-2 {
+  background: url("../images/cs_logo.png") no-repeat center center/contain;
+}
+.partner .partner-box-3 {
+  background: url("../images/Harris_logo.jpg") no-repeat center center/contain;
+}
+.partner .partner-box-4 {
+  background: url("../images/cie_logo.jpg") no-repeat center center/contain;
+}
+.partner .partner-box-5 {
+  background: url("../images/jpm_logo.jpeg") no-repeat center center/contain;
+}
+.partner .partner-box-6 {
+  background: url(../images/partner/partner-6.png) no-repeat center center/contain;
+}
+.partner .partner-box-7 {
+  background: url(../images/partner/partner-7.png) no-repeat center center/contain;
+}
+.partner .partner-box-8 {
+  background: url(../images/partner/partner-8.png) no-repeat center center/contain;
+}
+
+
+
+
+
+
+
+
+/* 
+ * 6.8 Section: FAQ
+ */
+.faq .panel-heading {
+  cursor: pointer;
+}
+.faq .faq-toggle.collapsed::before {
+  font-family: "Ionicons";
+  content: "\f218";
+  -webkit-transition: 0.5s linear ease-out;
+          transition: 0.5s linear ease-out;
+  position: absolute;
+  left: 15px;
+}
+.faq .faq-toggle::before {
+  position: absolute;
+  left: 15px;
+  font-family: "Ionicons";
+  content: "\f209";
+}
+.faq .panel-group .panel + .panel {
+  margin-top: 15px;
+}
+.faq .panel-default > .panel-heading {
+  color: #FFF;
+  background-color: #000000;
+  border-color: #000;
+  border-radius: 0;
+  padding: 0;
+}
+.faq .panel-default > .panel-heading a {
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 15px 15px 15px 35px;
+}
+
+
+
+
+
+
+/* 
+ * 5.0 Site Header
+ */
+.site-header {
+  width: 100%;
+  height: 100%;
+  min-height: 30vh;
+  position: relative;
+  text-align: center;
+  background: url("/static/images/temp_header.jpg") no-repeat center center/cover;
+}
+.site-header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.site-header .intro {
+  color: #fff;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+  z-index: 1;
+  padding: 0 15px;
+}
+.site-header .intro h2 {
+  color: #fff;
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-bottom: 10px;
+
+}
+.site-header .intro h1 {
+  padding: 1.5%;
+  margin-top: 0px;
+  font-size: 30px;
+}
+.site-header .intro p {
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+
+
+
 
 
 

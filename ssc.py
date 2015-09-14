@@ -20,11 +20,11 @@ def get_events_lists():
 		year, mon, day = int(f[0:4]), int(f[5:7]), int(f[8:10])
 		if datetime(year,mon,day)<present:
 			event_dict = file_to_dict(f)
-                        event_dict['filename'] = f
+			event_dict['filename'] = f
 			past.append(event_dict)
 		else:
 			event_dict = file_to_dict(f)
-                        event_dict['filename'] = f
+			event_dict['filename'] = f
 			upcoming.append(event_dict)
         upcoming = sorted(upcoming, key=lambda event: event['filename'])
         past = sorted(past, key=lambda event: event['filename'])
@@ -47,7 +47,6 @@ def file_to_dict(filename):
 			file_dict['website']=content[3]
 	return file_dict
 
-
 @app.route('/')
 def root():
 	upcoming, past = get_events_lists()
@@ -59,7 +58,10 @@ def about():
 
 @app.route('/hackathon')
 def hackathon():
-	return render_template('hackathon.html', hack_flag = True)
+	upcoming, past = get_events_lists()
+	past.reverse()
+	#return render_template('hackathon.html', hack_flag = True)
+	return render_template('hack.html', past=past, hack_flag = True)
 
 @app.route('/past_events')
 def past_events():
