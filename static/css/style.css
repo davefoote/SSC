@@ -33,7 +33,9 @@ body a{
     margin: 0px 0px 60px;
     text-transform: uppercase;
     text-align: left;
-    font-weight: 700
+    font-weight: 700;
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 
