@@ -217,7 +217,7 @@ ul a:focus {
 }
 .faq .faq-toggle.collapsed::before {
   font-family: "Ionicons";
-  content: "\f218";
+  content: "";
   -webkit-transition: 0.5s linear ease-out;
           transition: 0.5s linear ease-out;
   position: absolute;
@@ -227,14 +227,14 @@ ul a:focus {
   position: absolute;
   left: 15px;
   font-family: "Ionicons";
-  content: "\f209";
+  content: "";
 }
 .faq .panel-group .panel + .panel {
   margin-top: 15px;
 }
 .faq .panel-default > .panel-heading {
   color: #FFF;
-  background-color: #9C9C9C;
+  background-color: #A9A9A9;
   border-color: #000;
   border-radius: 0;
   padding: 0;
@@ -244,6 +244,7 @@ ul a:focus {
   display: block;
   text-decoration: none;
   padding: 15px 15px 15px 35px;
+  font-weight: 600;
 }
 
 
