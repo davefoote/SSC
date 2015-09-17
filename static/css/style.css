@@ -37,13 +37,6 @@ body a{
     padding-top: 10px;
 }
 
-
-
-
-.header-top {
-  padding: 1em;
-  background: #090909;
-}
 .head-nav {
   float: right;
   margin: 1.69em 0;
@@ -146,6 +139,7 @@ ul a:focus {
   background-size: 100%;
   color: #000;
   min-height: 300px;
+  margin-top: 15px;
 }
 .transbox {
   background-color: #FFF;
@@ -614,19 +608,16 @@ a.b-home:hover{
 	color:#fff;
 }
 .contact {
-  padding: 3em 0;
+  padding: 1em 0 3em 0;
 }
 .contact h2 {
-  color: #B3DDF2;
   font-size: 2.5em;
   margin: 0;
   padding-bottom: 1em;
 }
 .contact h3 {
-  color: #B3DDF2;
   font-size: 1.7em;
   margin-bottom: 1em;
-  font-family: 'bediz';
 }
 .contact p {
   color:#5d5d5d;
@@ -810,7 +801,6 @@ div#portfoliolist {
 	margin-bottom:3em;
 }
 .portfolio h3 {
-  color: #B3DDF2;
   text-align: center;
   font-size: 2em;
   font-weight: 700;
@@ -819,11 +809,10 @@ div#portfoliolist {
 
 /*--upcoming-starts-here--*/
 .upcoming{
-  padding:5em 0px;
+  padding:0 0 3em 0;
 }
 .upcoming-main h3{
   text-align:left;
-  color:#B3DDF2;
   font-size:2.5em;
   font-weight:700;
   margin:0;
@@ -837,15 +826,18 @@ div#portfoliolist {
 .upcoming-top{
   margin-top:3%;
 }
+/*--events-starts-here--*/
+.events {
+  padding:1em 0 3em 0;
+}
+/*--events-ends-here--*/
 /*--about-starts-here--*/
 .about{
-	padding:5em 0px;
+	padding:1em 0 3em 0;
 }
-.about-main h3,.choose-main h3,
+.events-main h3, .about-main h3,.choose-main h3,
 .contact-main h3,.services-main h3,
 .feature-main h3,.price-main h3{
-	text-align:center;
-	color:#B3DDF2;
 	font-size:2.5em;
 	font-weight:700;
 	margin:0;
@@ -1126,7 +1118,7 @@ i.arrw {
 .main {
 	padding: 10em 0px;
 }
-}
+
 /*-- responsive-mediaquries --*/
 @media(max-width:768px){
 .head-nav ul li{
@@ -1420,7 +1412,7 @@ i.arws {
 }
 .contact {
   padding: 1em 0;
-  border-bottom: 1px solid #5d5d5d;
+  border-bottom: 100px solid #5d5d5d;
 }
 .contact p {
   font-size: 0.875em;
@@ -1440,7 +1432,7 @@ i.arws {
 .main {
 	padding: 7em 0px;
 }
-}
+
 /*-- responsive-mediaquries --*/
 @media(max-width:480px){
 .b-left {

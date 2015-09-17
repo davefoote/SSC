@@ -10,15 +10,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 {% block content %}
-<body>
 
-<div class="row">
-<div class="col-sm-12">
-    <h2 style="margin-left:0;">Past events</h2>
-</div>
-</div>
+<div class="events">
+<div class="events-main">
+    <h3>Past events</h3>
+<br>
 {% for event in past %}
-   <div class="row" style="border-top: 1px solid #EEE;padding-top:5px;"> 
+   <div class="row" style="padding:5px 0 0 20px"> 
       <div class="col-sm-2">
          {% if event.website %}
          <strong><a href="{{ event.website }}" style="color:#87caeb">{{ event.title }}</a></strong>
@@ -38,10 +36,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       </div>
    </div>
 {% endfor %}
-
+</div>
+</div>
 </div>
 
-</body>
 {% endblock %}
 
 </html>
