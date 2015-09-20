@@ -5,6 +5,17 @@ Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
+/* flashing messages */
+
+.flashemail, .sentemail {
+   background-color: #FBB0B0;
+   padding: 5px 10px;
+   width: 100%;
+   font-weight: bold;
+}
+.flashemail { background-color: #FBB0B0; }
+.sentemail { background-color: #B3DDF2; }
+
 h4, h5, h6,
 h1, h2, h3 {margin-top: 0;}
 ul, ol {margin: 0;}
@@ -1729,3 +1740,5 @@ a.vew {
 }
 .services-top-left {
   padding: 0 0.4em;
+}
+

@@ -4,22 +4,22 @@
 
 <div class="contact">
 		{% if success %}
-		   <div class="sentemail" style="background-color: #B3DDF2;padding: 5px 10px;width: 100%; font-weight: bold;">Sent email!</div>
+		   <div class="sentemail">Sent email!</div>
 		{% endif %}
 		{% for message in form.name.errors %}
-		   <div class="flash" style="background-color: #FBB0B0;padding: 5px 10px;width: 100%; font-weight: bold;">{{ message }}</div>
+		   <div class="flashemail">{{ message }}</div>
 		{% endfor %}
  
 		{% for message in form.email.errors %}
-		   <div class="flash" style="background-color: #FBB0B0;padding: 5px 10px;width: 100%; font-weight: bold;">{{ message }}</div>
+		   <div class="flashemail">{{ message }}</div>
 		{% endfor %}
 
 		{% for message in form.subject.errors %}
-		   <div class="flash" style="background-color: #FBB0B0;padding: 5px 10px;width: 100%; font-weight: bold;">{{ message }}</div>
+		   <div class="flashemail">{{ message }}</div>
 		{% endfor %}
 
 		{% for message in form.message.errors %}
-		   <div class="flash" style="background-color: #FBB0B0;padding: 5px 10px;width: 100%; font-weight:bold;">{{ message }}</div>
+		   <div class="flashemail">{{ message }}</div>
 		{% endfor %}
 		<h2>Location</h2>
 			<div class="map">
