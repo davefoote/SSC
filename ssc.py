@@ -1,9 +1,25 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, flash
+from flask.ext.mail import Message, Mail
+from forms import ContactForm
 from datetime import datetime
 from flaskext.markdown import Markdown
 import os
 
 app = Flask(__name__)
+app.secret_key = 'ALLIESonly'
+
+mail = Mail()
+
+with open('app_email', 'r') as f:
+   pw = f.read()
+
+app.config["MAIL_SERVER"] = "smtp.gmail.com"
+app.config["MAIL_PORT"] = 465
+app.config["MAIL_USE_SSL"] = True
+app.config["MAIL_USERNAME"] = 'ChicagoSouthSideCivic@gmail.com'
+app.config["MAIL_PASSWORD"] = pw
+mail.init_app(app)
+
 app.config['DEBUG'] = True
 
 Markdown(app)
@@ -69,10 +85,23 @@ def past_events():
 	past.reverse()
 	return render_template('past_events.html', past=past, event_flag = True)
 
-@app.route('/contact')
+@app.route('/contact', methods=['GET','POST'])
 def contact():
-	return render_template('contact.html', cont_flag = True)
-
+        form = ContactForm()
+        if request.method == 'POST':
+           if form.validate() == False:
+              flash('All fields are required.')
+              return render_template('contact.html', form=form)
+           else:
+              msg = Message(form.subject.data, sender='ChicagoSouthSideCivic@gmail.com', recipients=['ChicagoSouthSideCivic@gmail.com'])
+              msg.body = """
+                 From: %s <%s>
+                 %s
+                 """ % (form.name.data, form.email.data, form.message.data)
+              mail.send(msg)
+              return render_template('contact.html', form=form, cont_flag = True, success = True)
+        if request.method == 'GET':
+	   return render_template('contact.html', form=form,  cont_flag = True)
 
 @app.route('/error')
 def error():
