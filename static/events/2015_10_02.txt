@@ -1,0 +1,5 @@
+Git it?|Friday, October 2, 2015|
+"A workshop in Github"
+
+Ever been confused by git commands? Come to SSC's first fall meetup where we'll go over the basics of github and learn about the git community and its resources. Come with your questions, come show off what you already know about git, or come because you're curious to learn more!
+
