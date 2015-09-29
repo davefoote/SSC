@@ -196,6 +196,9 @@ ul a:focus {
 .orgs .orgs-box-8 {
   background: url("/static/images/orgs/redcross_logo.png") no-repeat center center/contain;
 }
+.orgs .orgs-box-9 {
+  background: url("/static/images/orgs/ymca_logo.jpeg") no-repeat center center/contain;
+}
 
 
 
