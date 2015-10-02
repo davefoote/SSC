@@ -30,11 +30,11 @@ path = 'static/events'
 def get_events_lists():
 	upcoming = []
 	past = []
-	present = datetime.now()
+	present = datetime.now().date()
 
 	for f in os.listdir(path):
 		year, mon, day = int(f[0:4]), int(f[5:7]), int(f[8:10])
-		if datetime(year,mon,day)<present:
+		if datetime.date(datetime(year,mon,day))<present:
 			event_dict = file_to_dict(f)
 			event_dict['filename'] = f
 			past.append(event_dict)
