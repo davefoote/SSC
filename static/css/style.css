@@ -165,7 +165,6 @@ ul a:focus {
   height: 155px;
   width: 155px;
   margin: 25px auto;
-  padding: 5px;
   -webkit-transition: 0.5s all linear;
           transition: 0.5s all linear;
 }
@@ -199,6 +198,10 @@ ul a:focus {
 .orgs .orgs-box-9 {
   background: url("/static/images/orgs/ymca_logo.jpeg") no-repeat center center/contain;
 }
+.orgs .orgs-box-10 {
+  background: url("/static/images/orgs/ballotReady_logo.png") no-repeat center center/contain;
+}
+
 
 
 
