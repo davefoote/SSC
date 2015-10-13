@@ -485,11 +485,11 @@ i.arw {
 i.twt{
 width: 32px;
   height: 32px;
-  background: url(../images/img-sprite.png)no-repeat -49px -44px;
+  background: url("/static/images/img-sprite.png")no-repeat -49px -44px;
   display: inline-block;
 }
 i.twt:hover {
-  background: url(../images/img-sprite.png)no-repeat -48px -4px ;
+  background: url("/static/images/img-sprite.png")no-repeat -48px -4px ;
 }
 i.fb{
  width: 32px;
