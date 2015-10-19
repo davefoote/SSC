@@ -311,7 +311,7 @@ ul a:focus {
   min-height: 30vh;
   position: relative;
   text-align: center;
-  background: url("/static/images/temp_header.jpg") no-repeat center center/cover;
+  background: url("/static/images/hackathon_header.jpg") no-repeat center center/cover;
 }
 .site-header::before {
   content: "";
