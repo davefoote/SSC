@@ -204,7 +204,99 @@ ul a:focus {
 
 
 
-
+.photo .photo-box {
+  display: block;
+  opacity: 1;
+  height: 375px;
+  width: 375px;
+  margin: 25px auto;
+  -webkit-transition: 0.5s all linear;
+          transition: 0.5s all linear;
+}
+.photo .photo-box:hover {
+  opacity: 1;
+}
+.photo .photo-box-1 {
+  background: url("/static/images/photos/keynote.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-2 {
+  background: url("/static/images/photos/df_present.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-3 {
+  background: url("/static/images/photos/fri_ccfm.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-4 {
+  background: url("/static/images/photos/fri_gadc.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-5 {
+  background: url("/static/images/photos/sign_in.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-6 {
+  background: url("/static/images/photos/group1.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-7 {
+  background: url("/static/images/photos/matt_gee.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-8 {
+  background: url("/static/images/photos/ballotready.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-9 {
+  background: url("/static/images/photos/facilities.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-10 {
+  background: url("/static/images/photos/t_jones.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-11 {
+  background: url("/static/images/photos/rps.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-12 {
+  background: url("/static/images/photos/whiteboard.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-13 {
+  background: url("/static/images/photos/a_tindall.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-14 {
+  background: url("/static/images/photos/judges.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-15 {
+  background: url("/static/images/photos/present1.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-16 {
+  background: url("/static/images/photos/present2.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-17 {
+  background: url("/static/images/photos/team_df.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-18 {
+  background: url("/static/images/photos/team_cpd.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-19 {
+  background: url("/static/images/photos/team_ps.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-20 {
+  background: url("/static/images/photos/team_rc.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-21 {
+  background: url("/static/images/photos/team_rc2.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-22 {
+  background: url("/static/images/photos/team_ymca.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-23 {
+  background: url("/static/images/photos/team_fpcc.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-24 {
+  background: url("/static/images/photos/team_gadc.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-25 {
+  background: url("/static/images/photos/team_ccfm.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-26 {
+  background: url("/static/images/photos/team_br.jpg") no-repeat center center/contain;
+}
+.photo .photo-box-27 {
+  background: url("/static/images/photos/org_leads.jpg") no-repeat center center/contain;
+}
 
 
 
