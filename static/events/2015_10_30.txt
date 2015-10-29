@@ -1,0 +1,6 @@
+Lingwei Cheng|Friday, October 30, 2015|
+"How does CPS's budget crisis affect my school?"
+
+Each summer, Chicago Public Schools (CPS) comes up with next-year’s budget for each school, but this year is different. With ballooning pension obligations, the country’s fourth largest school district is in crisis.
+
+To help parents and students dissect the budget crisis and know what the specific impacts would be on his/her school, Lingwei Cheng and Patricia Gomes from the Northwestern University Knight Lab built Your CPS, a data-driven dynamic article that delivers personalized and interactive content about every CPS school.
