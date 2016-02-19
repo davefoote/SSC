@@ -1,0 +1,17 @@
+Mob Programming in R with Nick Mader|Friday, February 19, 2016|
+Try mob-programming in R with South Side Civic! Want to learn R? Get
+better? Hack on a cool civic project? Come join us for mob programming.
+One computer, one keyboard, one project: mob rule. The session will be
+facilitated by expert R evangelist Nick Mader.
+
+Nicholas Mader is a Senior Researcher at Chapin Hall at the University
+of Chicago. His work focuses on improving outcomes for at-risk youth by
+guiding policy development and evaluating youth service programs in
+partnership with city agencies and non-profit providers. His
+methodological interests are in using rigorous quantitative methods
+applied to administrative data sets—the same data used by policy
+makers—that are augmented with data from other agencies, and data
+actively collected for applied questions. At Chapin Hall, this work
+focuses on merging student educational performance with out-of-school
+factors such as family instability, family poverty, criminal activity of
+friends or family, and exposure to violence, child abuse or neglect.|
