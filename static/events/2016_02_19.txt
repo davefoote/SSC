@@ -4,7 +4,7 @@ better? Hack on a cool civic project? Come join us for mob programming.
 One computer, one keyboard, one project: mob rule. The session will be
 facilitated by expert R evangelist Nick Mader.
 
-Nicholas Mader is a Senior Researcher at Chapin Hall at the University
+**Nicholas Mader** is a Senior Researcher at Chapin Hall at the University
 of Chicago. His work focuses on improving outcomes for at-risk youth by
 guiding policy development and evaluating youth service programs in
 partnership with city agencies and non-profit providers. His
@@ -16,5 +16,5 @@ focuses on merging student educational performance with out-of-school
 factors such as family instability, family poverty, criminal activity of
 friends or family, and exposure to violence, child abuse or neglect.
 
-[Find the notes from our session.](https://docs.google.com/document/d/1TT6DJCZdjXrjgPs9l9iwjneXxkYcoxWL82P22YuK6GI/edit?usp=sharing)
+[**Link to the notes from our session.**](https://docs.google.com/document/d/1TT6DJCZdjXrjgPs9l9iwjneXxkYcoxWL82P22YuK6GI/edit?usp=sharing)
 |
