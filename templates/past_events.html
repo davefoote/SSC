@@ -16,7 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <h3>Past events</h3>
 <br>
 {% for event in past %}
-   <div class="row" style="padding:5px 0 0 20px"> 
+   <div class="row" style="padding:5px 0 0 20px">
       <div class="col-sm-2">
          {% if event.website %}
          <strong><a href="{{ event.website }}" style="color:#87caeb">{{ event.title }}</a></strong>
@@ -30,9 +30,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       </div>
       <div class="col-sm-8 about-bottom">
          {% filter markdown %}
-         {{ event.description.decode("utf-8") }}
+         {{ event.description }}
          {% endfilter %}
-         
+
       </div>
    </div>
 {% endfor %}
@@ -43,4 +43,3 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 {% endblock %}
 
 </html>
-

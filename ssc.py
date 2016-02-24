@@ -26,8 +26,8 @@ def get_events_lists():
 			event_dict = file_to_dict(f)
 			event_dict['filename'] = f
 			upcoming.append(event_dict)
-        upcoming = sorted(upcoming, key=lambda event: event['filename'])
-        past = sorted(past, key=lambda event: event['filename'])
+		upcoming = sorted(upcoming, key=lambda event: event['filename'])
+		past = sorted(past, key=lambda event: event['filename'])
 	return upcoming, past
 
 
@@ -36,7 +36,7 @@ def file_to_dict(filename):
 	file_dict = {}
 	with open(os.path.join(path, filename)) as f:
 		content = f.read().split('|')
-		if len(content) < 4: 
+		if len(content) < 4:
 			file_dict['title']=content[0]
 			file_dict['date']=content[1]
 			file_dict['description']=content[2]
