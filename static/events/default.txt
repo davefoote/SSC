@@ -1,0 +1,6 @@
+Stay tuned! | |
+We're working on bringing you some and workshops. Keep checking this space for updates.
+
+
+in the get events functions.
+if it starts with a d, special case for that.

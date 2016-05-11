@@ -1,0 +1,11 @@
+Markdown with Christine Chung|Friday, April 22, 2016|
+
+**Make your life easier and reports prettier with South Side Civic!**
+
+On Friday, April 22, we'll learn how to publish slick and simple reports (like [this][1],  [this][2], or [this][3]!) with chart and equation integration using Markdown and LaTeX. After a quick introduction to markup languages, we'll play with a few different tools like RMarkdown and Madoko. Bring your laptop and something you'd like to work on. It'll help to know a little R or Python, but all levels and experience are welcome!
+
+[**Link to the github session.**](https://docs.google.com/document/d/1TT6DJCZdjXrjgPs9l9iwjneXxkYcoxWL82P22YuK6GI/edit?usp=sharing)
+
+[1]:http://rmarkdown.rstudio.com/examples/tufte-handout.pdf
+[2]:http://kieranhealy.org/files/misc/article-markdown.pdf
+[3]:http://research.microsoft.com/en-us/um/people/daan/madoko/samples/effects/out/effects.pdf

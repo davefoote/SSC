@@ -1,0 +1,13 @@
+Mob Programming in D3 with Justin Clark|Friday, May 13, 2016|
+
+**Data Driven Documents** - Sounds boring, looks cool! You've probably seen it
+used already - maybe on the
+[NYTimes](http://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html)
+or on the creator [Mike Bostock's](https://bost.ocks.org/mike/algorithms/) site. This [koala thing](http://www.koalastothemax.com/) was made with D3
+too. Come learn how you can use it to visualize your data! This
+mob-programming session will be led by Justin Clark, a developer at the
+Berkman Center for Internet & Society. It'll help to know a little javascript,
+but all levels and experience are welcome. Bring your laptops to follow along.
+
+**What is Mob Programming?**
+Mob programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. With Mob Programming the collaboration is extended to everyone on the team, while still using a single computer for writing the code and inputting it into the code base. It's a great way to learn a new skill in a fun, low-pressure environment!
