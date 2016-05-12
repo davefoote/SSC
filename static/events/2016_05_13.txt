@@ -2,8 +2,8 @@ Mob Programming in D3 with Justin Clark|Friday, May 13, 2016|
 
 **Data Driven Documents** - Sounds boring, looks cool! You've probably seen it
 used already - maybe on the
-[NYTimes](http://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html)
-or on the creator [Mike Bostock's](https://bost.ocks.org/mike/algorithms/) site. This [koala thing](http://www.koalastothemax.com/) was made with D3
+[**NYTimes**](http://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html)
+or on the creator [**Mike Bostock's**](https://bost.ocks.org/mike/algorithms/) site. This [**koala thing**](http://www.koalastothemax.com/) was made with D3
 too. Come learn how you can use it to visualize your data! This
 mob-programming session will be led by Justin Clark, a developer at the
 Berkman Center for Internet & Society. It'll help to know a little javascript,
