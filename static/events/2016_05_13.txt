@@ -11,3 +11,5 @@ but all levels and experience are welcome. Bring your laptops to follow along.
 
 **What is Mob Programming?**
 Mob programming is a software development approach where the whole team works on the same thing, at the same time, in the same space, and at the same computer. With Mob Programming the collaboration is extended to everyone on the team, while still using a single computer for writing the code and inputting it into the code base. It's a great way to learn a new skill in a fun, low-pressure environment!
+
+Link to the [**slides**](https://brk.mn/sscd3) and [**jsfiddle**](https://jsfiddle.net/190vcbak/1/).
