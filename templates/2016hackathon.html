@@ -1,0 +1,810 @@
+{% extends "layout.html" %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% block content %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Civic ScopeAthon</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../hackathon/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../hackathon/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../hackathon/assets/css/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="hack.html">
+
+
+                        <!-- logo image  -->
+                        <p>
+                        <a href="/" data-hover="HOME"><img src="static/images/southsidecivic_logo_foot.png">
+                        <a href="http://politics.uchicago.edu/"><img src="static/images/iop_logo_sm.jpg" alt="IOP">
+                        </p>
+                    </a>
+                </div>
+
+
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Keynote Speaker</a></li>
+                    <li><a data-scroll href="#workshops">Workshops</a></li>
+                    <li><a data-scroll href="#orgs">Organizations</a></li>
+                    <li><a data-scroll href="#location">Location</a></li>
+                    <li><a data-scroll href="#partner">Partners</a></li>
+                    <li><a data-scroll href="#faq">FAQ</a></li>
+
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center">
+        <div class="intro">
+
+            <h2>Saturday, October 8th, 2016</h2>
+            <h2>@Polsky Center for Entrepreneurship and Innovation (Formerly the Chicago Innovation Exchange) </h2>
+            <h2>#uchicivichack</h2>
+            <h2>Use Data. Solve Problems. Do good.</h2>
+
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About the event</h3>
+
+                    <p>South Side Civic a <a href="https://capp-sites.uchicago.edu/" style="color:#87CAEB">CAPP</a>-student led group is partnering with UChicago’s Institute of Politics (IOP), Department of Computer Science, and the Harris School for the first time to host a two-day Civic Hackathon!</p>
+
+                    <p>Our Civic ScopeAthon's main objective is to focus on a civic-minded or community-based problem, form cross-functional teams to scope out the problem, break the problem down into its parts and develop a plan to address the problem. The solutions may or may not be entirely tech-oriented, or only parts of the solution may have a tech component.</p>
+
+                    <p>While traditional hackathons are about writing code, our scopeathon is more about understanding the purpose and use of technology in helping solve problems. Before anyone writes a line of code, it’s crucial to have a correct and complete understanding of what the full-scale technology solution will need to accomplish. This understanding needs to bridge developers and organization representatives, and the scope-athon is designed to strengthen this cross-discipline awareness.</p>
+
+                    <p><a> data-scroll href="#schedule" style="color:#87CAEB">Hackathon Schedule</a></p>
+
+
+
+
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">What is Our Goal?</h3>
+
+                    <p>The event will bring together leaders of civic organizations, students, and community members to learn about civic hacking, civic problems, and how to work in teams to form a solution. Participants will come from various backgrounds, including, but not limited to, computer science, political science and public policy, economics, geography, visual art, civic innovation and leadership, etc.</p>
+
+                    <ul class="list-arrow-right">
+
+                        <li>Learn and exercise problem-scoping skills</li>
+                        <li>Meet civic leaders in active organizations</li>
+                        <li>Work on real problems</li>
+                        <li>Become a part of a civic-minded tech community</li>
+
+                    </ul>
+
+                    <p><a href="#faq" style="color:#87CAEB">FAQ</a> with more details</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Keynote Speaker - Rayid Ghani</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="speaker">
+
+                        <h3>Data for Social Good</h3>
+
+                        <p>Rayid Ghani is the Director of the Center for Data Science and Public Policy, Chief Data Scientist at the Urban Center on Computation and Data, Research Director at the Computation Institute (a joint institute of Argonne National Laboratory and The University of Chicago), and a Senior Fellow at the Harris School of Public Policy at the University of Chicago. He is also the co-founder of Edgeflip, an analytics startup that grew out of the Obama 2012 Campaign, focused on social media products for non-profits, advocacy groups, and charities.</p>
+                        <p>Ghani is currently in charge of the Eric & Wendy Schmidt Data Science for Social Good Summer Fellowship, at the University of Chicago. </p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<br>
+
+    <section id="workshops" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Workshops - Problem-Scoping Toolkit</h3>
+                </div>
+            </div>
+                <div class="col-md-12">
+                    <div class="speaker">
+                        <h4 class="section-title">Workshop 1: Problem Discovery  -
+                        <a href="https://twitter.com/matthewgee" style="color:#87CAEB">Matt Gee</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="speaker">
+                        <h4 class="section-title">Workshop 2: Find the Data  - <a href="https://drive.google.com/file/d/0BwrMQt5qdXw0ODFpS0s1U0pKVm5ISXpMNkYtc3lNUlBtRnlJ/view?usp=sharing" style="color:#87CAEB">Emily Wiegand</a></h4>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="speaker">
+                        <figure>
+                        <h4 class="section-title">Workshop 3: Solution Mapping  - <a href="http://www.rayidghani.com/" style="color:#87CAEB">Rayid Ghani</a></h4>
+                    </div>
+                </div>
+    </section>
+
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">ScopeAthon Schedule</h3>
+                </div>
+            </div>
+
+               <!-- Saturday Scheudle -->
+
+               <div class="row" style="border-top: 1px solid #EEE;padding-top:5px;">
+                  <div class="col-md-2">
+                     <strong>Saturday, October 8th</strong>
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>9:30 a.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Breakfast & Registration</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>10:00 a.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Kick-Off Speech with Rayid Ghani</p>
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>10:15 a.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Organization Presentations</p>
+                  </div>
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>11:00 a.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Workshop 1 & Breakout Session: Problem Discovery with Matt Gee</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>12:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Lunch and Continued Problem Discovery Session</p>
+                  </div>
+
+                 <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>1:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Workshop 2 & Breakout Session: Finding the Data with Emily Weigand</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>2:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Workshop 3 & Breakout Session: Mapping the Solution with Rayid Ghani</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>2:50 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Presentation Guidelines</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>3:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                    <p>Breakout Session 4: Defining the New Approach</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>5:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Competition Presentations</p>
+                  </div>
+
+                  <div class="col-md-2">
+                  </div>
+
+
+                  <div class="col-md-2">
+                     <p>6:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                     <p>Dinner/Judges' Deliberation</p>
+                  </div>
+
+
+                  <div class="col-md-2">
+                  </div>
+
+                  <div class="col-md-2">
+                     <p>7:00 p.m.</p>
+                  </div>
+
+                  <div class="col-md-8 about-bottom">
+                    <p>Award Ceremony</p>
+                  </div>
+
+               </div>
+
+            </div>
+    </section>
+
+
+    <section id="orgs" class="section orgs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organizations</h3>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-1"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Marriott Foundation</h3>
+                  <p>Established in 1989 by the Marriott Foundation for People with Disabilities, Bridges from School to Work engages employers, schools, community resources, youth and their families to help businesses meet their workforce needs while offering young people with disabilities the opportunity to learn, grow and succeed through employment. Each year, Bridges helps more than a thousand young people–most of whom are transitioning out of high school special education–prepare for the workplace and find a job with an employer in need of qualified, entry-level applicants. Creating and supporting mutually beneficial competitive employment relationships, the program creates opportunities for employment for youth while driving bottom-line results for business.</p>
+
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-2"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>IL Department of Health and Human Services</h3>
+                  <p>Reduce poverty and keep individuals and families out of the deep-end of social service systems.</p>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-3"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>True Believers Community Connections </h3>
+                  <p> It is the endeavor of True Believers Community Connections to offer programming and resources targeted toward the seamless community reintegration of newly released prisoners. Our aim is to continue establishing partnerships and networks with community organizations, local, state, and federal agencies that facilitate reentry initiatives.</p>
+                </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-4"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Forest Preserves of Cook County</h3>
+                  <p> “to acquire, restore and manage lands for the purpose of protecting and preserving public open space with its natural wonders, significant prairies, forests, wetlands, rivers, streams, and other landscapes with all of its associated wildlife, in a natural state for the education, pleasure and recreation of the public now and in the future.”</p>
+                  <p>See FPDCC.com for more information.</p>
+                </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-5"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Haitian Museum</h3>
+                </div>
+            </div>
+<br>
+
+        </div>
+    </section>
+<br>
+
+
+    <section id="photo" class="section photo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Photos from Last Year</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-1"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-2"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-3"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-4"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-5"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-6"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-7"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-8"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-9"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-10"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-11"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-12"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-13"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-14"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-15"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-16"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-17"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-18"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-19"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-20"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-21"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-22"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-23"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-24"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-25"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-26"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="photo-box photo-box-27"></a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+<br>
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Location</h3>
+                    <address>
+                        <p>Chicago Innovation Exchange<br>1452 E 53rd St, Chicago, IL 60615<br> 2nd Floor<br> Phone: (773) 702-2076<br> Email: ChicagoSouthSideCivic@gmail.com</p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11897.306073579257!2d-87.589686!3d41.799726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf38dee0aa342b85!2sChicago+Innovation+Exchange+(CIE)!5e0!3m2!1sen!2sus!4v1442166981926" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Partners</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-9"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-4"></a>
+                </div>
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-5"></a>
+                </div>
+
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-3"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-8"></a>
+                </div>
+            </div>
+
+    </section>
+
+<br>
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">FAQ</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is a Civic Hackathon?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                  <p>The main objective of our ScopeAthonis to take a civic-minded or community-based problem and to form committed groups to scope out the problem, breaking it down into its parts and developing a plan to address the problem. The solutions may or may not be entirely tech-oriented, or only parts of the solution may have a tech component.</p>
+
+                                  <p>At our Civic ScopeAthon you will gain problem-scoping skills, learn about other civic-tech organizations, network with community leaders, and join a team and enjoy the thrill and excitement of a 2-day hackathon.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Where is it?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                  <p><a href="#location" style="color:#87CAEB">Chicago Innovation Exchange</a>, 1452 E 53rd St, Chicago, IL 60615 2nd floor</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> When is it?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                  <p>Saturday, October 8th.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Who should attend?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                  <p>Our scopeAthon is open to the entire University of Chicago community as well as interested folks working anywhere from the public/non-profit sector to the private sector.</p>
+
+                                  <p>Participants will come from various backgrounds, including, but not limited to, computer science, political science and public policy, economics, geography, visual art, civic innovation and leadership, and more.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Do I need to know how to code?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                  <p>No. We want a diverse array of skills present at the scopeAthon, which means that even if you can’t code, we want you there!
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Is there a competition? Are there prizes?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                  <p>Teams will present their work to a panel of expert judges and compete for prizes at the end of the day on Saturday. But the real prize for our civic hackathon will be the opportunity for all teams to continue their work with the help of IOP’s <a href="http://politics.uchicago.edu/pages/student-civic-engagement" style="color:#87CAEB">Student Civic Engagement Program</a>, <a href="/" style="color:#87CAEB">South Side Civic</a>, and other campus resources beyond the hackathon.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingExample">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> What’s this problem-scoping thing? Do you have an example?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseExample" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingExample">
+                                <div class="panel-body">
+                                  <p>Here’s an example of a civic problem and successful solution:</p>
+
+                                  <p>Organization: Illinois Department of Human Services -- Better Birth Outcomes Program</p>
+                                  <p>Problem/objective: Optimizing locations for birth-outcomes clinics given limited resources</p>
+                                  <p>Limitation:  Only 2,000 mothers can be served</p>
+                                  <p>Data: Birth outcomes data, census tract data</p>
+                                  <p>Improved Technique: Switching from analysis by county to analysis by census tract</p>
+                                  <p>Solution: Build a map by census tract that better illustrates the number and proportion of birth outcomes in a given area</p>
+
+                                  <br>
+
+                                  <p>Here are examples of the types of projects we won’t be working on:</p>
+                                  <p>Data exploration without a question/problem in mind (i.e. "Here’s all of our data, now tell us something!")</p>
+                                  <p>Building a website or app/making your website/app prettier</p>
+
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSeven">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> How do I join a team?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                <div class="panel-body">
+                                  <p>Register for a team when you sign up on Eventbrite. Check out our website beforehand and find some problems you’re interested in working on! We will keep updating the website with organizations that will be at the scopeAthon.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingEight">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Do I need a laptop?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                <div class="panel-body">
+                                  <p>A laptop will be useful on Saturday. If you can’t bring one on Saturday, contact us, <a href="mailto:chicagosouthsidecivic@gmail.com">ChicagoSouthSideCivic(at)gmail.com</a> and we will work something out.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingNine">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine"> Do I have to be there both days? </a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingNine">
+                                <div class="panel-body">
+                                  <p>No. We will be updating our website with organizations at the scopeAthon online, you can still join a team on Saturday. If you can only make it on Friday, and sharpening your problem-scoping skills with a team of talented individuals for organizations that are making a difference doesn’t interest you, that’s fine too.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTen">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"> Do I have to stay the whole time on Saturday? </a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                                <div class="panel-body">
+                                  <p>Saturday’s workshops build upon one another to provide a “problem-scoping toolkit” by the end of the event. Coming for just the afternoon or just the morning will diminish your opportunity to fully engage in the hackathon. So, email us if you have concerns about scheduling conflicts.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingEleven">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"> Who’s planning this and how can I get involved? </a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                                <div class="panel-body">
+                                  <p>The civic scopeAthono is a joint effort with South Side Civic, a CAPP student-led group, UChicago’s Department of Computer Science, and the Harris School of Public Policy. </p>
+
+                                  <p>Contact <a href="mailto:chicagosouthsidecivic@gmail.com">ChicagoSouthSideCivic(at)gmail.com</a> to learn more, or volunteer at the event!
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+<br>
+
+    <!-- script -->
+    <script src="static/js/jquery/dist/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="static/js/main.js"></script>
+
+</div>
+
+</body>
+
+{% endblock %}
+
+</html>

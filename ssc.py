@@ -61,7 +61,7 @@ def hackathon():
 	upcoming, past = get_events_lists()
 	past.reverse()
 	#return render_template('hackathon.html', hack_flag = True)
-	return render_template('hack.html', past=past, hack_flag = True)
+	return render_template('2016hackathon.html', past=past, hack_flag = True)
 
 @app.route('/past_events')
 def past_events():
