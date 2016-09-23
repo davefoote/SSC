@@ -172,36 +172,20 @@ ul a:focus {
   opacity: 1;
 }
 .orgs .orgs-box-1 {
-  background: url("/static/images/orgs/CPD_logo.jpg") no-repeat center center/contain;
+  background: url("/static/images/orgs/marriot_logo.jpg") no-repeat center center/contain;
 }
 .orgs .orgs-box-2 {
-  background: url("/static/images/orgs/donors_logo.jpg") no-repeat center center/contain;
+  background: url("/static/images/orgs/IDHS_logo.jpg") no-repeat center center/contain;
 }
 .orgs .orgs-box-3 {
-  background: url("/static/images/orgs/facilities_logo.jpg") no-repeat center center/contain;
+  background: url("/static/images/orgs/TBCC_logo.jpg") no-repeat center center/contain;
 }
 .orgs .orgs-box-4 {
   background: url("/static/images/orgs/forest_logo.png") no-repeat center center/contain;
 }
 .orgs .orgs-box-5 {
-  background: url("/static/images/orgs/GADC_logo.png") no-repeat center center/contain;
+  background: url("/static/images/orgs/haitian_logo.png") no-repeat center center/contain;
 }
-.orgs .orgs-box-6 {
-  background: url("/static/images/orgs/nwshc_logo.jpg") no-repeat center center/contain;
-}
-.orgs .orgs-box-7 {
-  background: url("/static/images/orgs/projectsyncere_logo.png") no-repeat center center/contain;
-}
-.orgs .orgs-box-8 {
-  background: url("/static/images/orgs/redcross_logo.png") no-repeat center center/contain;
-}
-.orgs .orgs-box-9 {
-  background: url("/static/images/orgs/ymca_logo.jpeg") no-repeat center center/contain;
-}
-.orgs .orgs-box-10 {
-  background: url("/static/images/orgs/ballotReady_logo.png") no-repeat center center/contain;
-}
-
 
 
 .photo .photo-box {
