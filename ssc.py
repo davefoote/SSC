@@ -59,8 +59,8 @@ def root():
 def about():
 	return render_template('about.html', about_flag = True)
 
-@app.route('/scopathon')
-def scopathon():
+@app.route('/scopeathon')
+def scopeathon():
 	upcoming, past = get_events_lists()
 	past.reverse()
 	#return render_template('hackathon.html', hack_flag = True)
