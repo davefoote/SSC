@@ -1,6 +1,9 @@
 from flask import Flask, render_template, request
 from datetime import datetime
-from flaskext.markdown import Markdown
+try: #failing for Vi
+	from flaskext.markdown import Markdown
+except:
+	from markdown import Markdown
 import os
 
 app = Flask(__name__)
