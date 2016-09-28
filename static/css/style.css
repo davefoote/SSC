@@ -304,7 +304,7 @@ ul a:focus {
   background: url("/static/images/cs_logo.png") no-repeat center center/contain;
 }
 .partner .partner-box-2 {
-  background: url("/static/images/UChicagoUrban_Wordmark_fullcolor.eps") no-repeat center center/contain;
+  background: url("/static/images/UChicagoUrban_Wordmark_fullcolor.png") no-repeat center center/contain;
 }
 .partner .partner-box-3 {
   background: url("/static/images/CI_logo.png") no-repeat center center/contain;
@@ -318,7 +318,9 @@ ul a:focus {
 .partner .partner-box-6 {
   background: url("/static/images/capp_logo.jpg") no-repeat center center/contain;
 }
-
+.partner .partner-box-7 {
+  background: url("/static/images/microsoft.jpg") no-repeat center center/contain;
+}
 
 /*
  * 6.8 Section: FAQ
