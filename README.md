@@ -1,4 +1,4 @@
-Website for South Side Civic, based at the CIE at University of Chicago.
+Website for South Side Civic (SSC), based at the Polsky Center for Entrepreneurship and Innovation at the University of Chicago.
 
 Install:
 Flask &
