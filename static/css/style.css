@@ -193,6 +193,22 @@ ul a:focus {
   background: url("/static/images/orgs/campuslab.png") no-repeat center center/contain;
 }
 
+.orgs .orgs-box-igrow {
+  background: url("/static/images/orgs/igrow_chicago.jpg") no-repeat center center/contain;
+}
+
+.orgs .orgs-box-upworld {
+  background: url("/static/images/orgs/upworld_inc.png") no-repeat center center/contain;
+}
+
+.orgs .orgs-box-housingchoice {
+  background: url("/static/images/orgs/housingchoicepartners.png") no-repeat center center/contain;
+}
+
+.orgs .orgs-box-gecdc {
+  background: url("/static/images/orgs/gecdc.png") no-repeat center center/contain;
+}
+
 .photo .photo-box {
   display: block;
   opacity: 1;

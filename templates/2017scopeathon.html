@@ -1,0 +1,602 @@
+{% extends "layout.html" %}
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% block content %}
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Civic ScopeAthon</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="../hackathon/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../hackathon/bower_components/ionicons/css/ionicons.min.css">
+    <link rel="stylesheet" href="../hackathon/assets/css/main.css">
+</head>
+
+<body data-spy="scroll" data-target="#site-nav">
+    <nav id="site-nav" class="navbar navbar-fixed-top navbar-custom">
+        <div class="container">
+            <div class="navbar-header">
+
+                <!-- logo -->
+                <div class="site-branding">
+                    <a class="logo" href="hack.html">
+
+
+                        <!-- logo image  -->
+                        <p>
+                        <a href="/" data-hover="HOME"><img src="static/images/southsidecivic_logo_foot.png">
+                        </p>
+                    </a>
+                </div>
+
+
+
+            </div><!-- /.navbar-header -->
+
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <!-- navigation menu -->
+                    <li class="active"><a data-scroll href="#about">About</a></li>
+                    <li><a data-scroll href="#speakers">Keynote & Workshops</a></li>
+                    <li><a data-scroll href="#schedule">Schedule</a></li>
+                    <li><a data-scroll href="#orgs">Organizations</a></li>
+                    <li><a data-scroll href="#judges">Judges</a></li>
+                    <li><a data-scroll href="#location">Location</a></li>
+                    <li><a data-scroll href="#partner">Partners</a></li>
+                    <li><a data-scroll href="#faq">FAQ</a></li>
+
+                </ul>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <header id="site-header" class="site-header valign-center">
+        <div class="intro">
+
+            <h1>The Third Annual Civic ScopeAthon</h2>
+            <h3>Friday-Saturday, October 6-7, 2017</h3>
+            <h2>Location TBA</h2>
+            <h2> <a href="https://www.eventbrite.com/e/uchicago-third-annual-civic-scopeathon-tickets-37661686117" style='color:lightblue;'>RSVP here</a></h2>
+            </br>
+            <h3>Use Data. Solve Problems. Do good. #uchicivichack</h3>
+
+        </div>
+    </header>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+
+                    <h3 class="section-title">About the event</h3>
+                    <h4> Use Data. Solve Problems. Do good. </h4>
+                    <p>South Side Civic a <a href="https://capp-sites.uchicago.edu/" target="_blank" style="color:#87CAEB">CAPP</a>-student led group is partnering with UChicago’s Institute of Politics (IOP), Department of Computer Science, and the Harris School's CAPP program to host the Third Annual UChicago Civic ScopeAthon!</p>
+
+                    <p>While traditional hackathons are about writing code, a scopeathon focuses on understanding the purpose and use of technology in helping solve problems. Before anyone writes a line of code, it’s crucial to understand what a technology solution needs to accomplish. This understanding bridges developers and organization representatives, and the scopeathon strengthens this cross-discipline awareness.</p>
+
+                </div><!-- /.col-sm-6 -->
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">What is Our Goal?</h3>
+                    <h4>  The ScopeAthon Mission </h4>
+
+                     <p>The main objectives of the ScopeAthon are to form cross-functional teams to scope out problems faced by civic organizations, break the problems down into manageable parts and develop a plan to address them. The solutions may or may not be entirely tech-oriented, or only parts of the solution may have a tech component.</p>
+
+                    <p>The event brings together leaders of civic organizations, students, and community members to learn about civic hacking, civic problems, and how to work in teams to form a solution. Participants come from various backgrounds, including, but not limited to, computer science, political science and public policy, economics, geography, visual art, civic innovation and leadership, etc.</p>
+
+                    <ul class="list-arrow-right">
+
+                        <li>Learn and exercise problem-scoping skills</li>
+                        <li>Meet civic leaders in active organizations</li>
+                        <li>Work on real problems</li>
+                        <li>Contribute to the civic-tech community</li>
+
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="speakers" class="section speakers">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="section-title">Keynote Speaker: Denice Ross</h3>
+                    <h4>Solving Civic Problems with Data</h4>
+                    <p>Denice W. Ross is a Public Interest Technology Fellow at New America.  She specializes in data transparency and civic engagement, with a focus on action at the local level.</p><p> Before joining New America, Ross was a senior advisor in the Obama White House, where she leveraged data and innovation to improve the effectiveness and sustainability of community-based federal programs. As a presidential innovation fellow in 2014, she co-founded the White House Police Data Initiative, one of the most tangible responses to the 21st Century Policing Task Force report, and she worked with the Department of Energy on crowdsourcing private-sector data to improve community resilience in disaster-impacted areas. Earlier, she served as director of enterprise innovation for the City of New Orleans, where she built a digital services team and established open data as the cornerstone for performance management and public engagement. </p>
+                    <p>
+                    Prior to her roles in government, Ross co-directed the Greater New Orleans Community Data Center (GNOCDC), a non-profit data intermediary and member of the Urban Institute’s National Neighborhood Indicators Partnership. When Hurricane Katrina propelled New Orleans into the national spotlight, Ross collaborated with Brookings to track the city’s recovery through The New Orleans Index. In addition, she actively participated in numerous post-Katrina community planning initiatives, and co-founded the first new childcare center after the storm.</p>
+                        <p>Denice Ross will speak on Friday, October 6, 2017. The location and time are TBD.</p>
+                </div>
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title multiple-title">Workshops: Problem-Scoping Toolkit</h3>
+                
+                    <h4> Workshop 1: Problem Discovery with <a href="https://www.linkedin.com/in/matthewgee1" target="_blank" style="color:#87CAEB">Matt Gee</a> </h4>
+                    <h4> Workshop 2: Solution Mapping with <a href="https://www.linkedin.com/in/rayid" target="_blank" style="color:#87CAEB">Rayid Ghani</a> </h4>
+                    <h4> Workshop 3: Communicating the solution <a href="https://www.linkedin.com/in/alexcengler/" target="_blank" style="color:#87CAEB">Alex Engler</a> </h4>
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+    <section id="schedule" class="section schedule">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12"><h3 class="section-title">ScopeAthon Schedule</h3></div>
+                <!-- Saturday Schedule -->
+                <div class="row" style="border-top: 1px solid #EEE;padding-top:5px;">
+                    <div class="col-md-12" style="padding-left: 20px"><strong>Saturday, October 7th</strong></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>9:30 a.m.</p> </div>
+                    <div class="col-md-10 about-bottom"><p>Breakfast & Registration</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>10:00 a.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Kick-Off Speech with Rayid Ghani</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>10:15 a.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Organization Presentations</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>11:00 a.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Workshop 1 & Breakout Session: Problem Discovery with Matt Gee</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>12:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Lunch and Continued Problem Discovery Session</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>1:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Workshop 2 & Breakout Session: Mapping the Solution with Rayid Ghani</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>2:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Workshop 3 & Breakout Session: Communicating the solution with Alex Engler</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>2:50 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Presentation Guidelines</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>3:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Work Session</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px" ><p>5:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Competition Presentations</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>6:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Dinner/Judges' Deliberation</p></div>
+
+                    <div class="col-md-2" style="padding-left: 20px"><p>7:00 p.m.</p></div>
+                    <div class="col-md-10 about-bottom"><p>Award Ceremony</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="orgs" class="section orgs">
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Organizations</h3>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-igrow"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>I Grow Chicago</h3>
+                  <p> <b> Mission: </b> I Grow Chicago aims to create an environment to connect and belong in order to foster wellness, justice, and dignity for all. Through sustainable farming and educational programs in nutrition, movement yoga and the arts, we foster creativity, wellness and empowerment for individuals in the community as a whole. <br>
+                  <b>Challenge: </b> I Grow Chicago is developing a case management system to better track our community's successes and needs. They are looking for help developing key metrics they should be tracking, the best system to use, and an implementation timeline and scope. Because they hire primarily from the Englewood community, a large barrier for this project is computer literacy of staff. A large part of this project will be in determining a system with an easy user interface and in staff training and development.</p>
+                </div>
+              </div>
+
+<br> 
+
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-upworld"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Upworld Inc</h3>
+                  <p> <b>Mission: </b> Upworld Inc is committed to helping young adults discover their inner greatness and potential to be personally and professionally successful. Upworld Inc provides training in 21st century skills which have proven to be essential for success, yet are not provided in traditional education systems. Our programs are real-life, team-based, hands-on, and internationally focused so that program participants can expand their horizons, explore their passions and skills, and acquire critical life and professional skills. <br>
+                  <b>Challenge: </b> The need to better find job opportunities for the students that have gone through the program and better track both those and their outcomes.</p>
+
+                </div>
+        </div>
+<br>
+<!--
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-2"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Community Investment Corporation Chicago</h3>
+                  <p><b> Mission: </b> The mission of CIC is to be the leading force in neighborhood revitalization through innovative financial programs<br><br>
+                  <b> Challenge: </b></p>
+                </div>
+            </div>
+            <br>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-3"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>True Believers Community Connections</h3>
+                  <p><b> Mission: </b> Offer programming and resources targeted toward the seamless community reintegration of newly released prisoners by continuing to establish partnerships and networks with community organizations, local, state, and federal agencies that facilitate reentry initiatives. <br><br>
+                  <b> Challenge: </b> Find employment for their clients, individuals returning from institutional confinement.</p>
+                </div>
+            </div>
+<br>
+-->
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-housingchoice"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Housing Choice Partners</h3>
+                  <p><b> Mission: </b> Where people live has a direct impact on their opportunities in life. Expanding the housing choices for very low-income residents, from high poverty and racially segregated areas to neighborhoods of opportunity, is the primary means to realize our goal; to be sure that all residents have a chance to participate in the economic vitality of the region, become self-sufficient over time, realize better health outcomes, and provide their children with access to better performing schools and employment opportunities, in order to reduce the cycle of intergenerational poverty. <br><br>
+                  <b>Challenge: </b> How best we can predict outcomes for our clients who move to areas of better opportunity based on proven methods that correlate life outcomes with neighborhood factors</p>
+                </div>
+            </div>
+<br>
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-gecdc"></a>
+              </div>
+                <div class="col-sm-8">
+                    <h3>Englewood Community Development Corporation</h3>
+                    <p><b> Mission: </b> In order to serve as a catalyst for economic development, Greater Englewood CDC’s mission is to re-brand, re-build and revitalize the Greater Englewood community by building on existing community assets and facilitating ongoing collaboration between residents and other key stakeholders.<br><br>
+                        <b>Challenge: </b> Monitoring and understanding how to improve programming by creating a user oriented tracking system for the Englewood Blue startup accelerator
+                    </p>
+                </div>
+            </div>
+<br>
+
+            <div class="row">
+              <div class="col-sm-4">
+                <a class="orgs-box orgs-box-6"></a>
+              </div>
+                <div class="col-sm-8">
+                  <h3>Presence Health</h3>
+                  <p><b> Mission: </b> We will be a leader in transforming health care by delivering clinical excellence, outstanding value and exceptional experience to achieve better health for our communities <br><br>
+                  <b>Challenge: </b> Use public data about Illinois communities, including demographic, economic, geospatial, and health data, to provide health care workers with meaningful, targeted insights about a patient’s environmental risk factors based on where they live. </p>
+                </div>
+            </div>
+
+<br>
+
+    </section>
+
+
+    <section id="judges" class="section judges">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3 class="section-title">Judges</h3>
+                    <h4> Denice Ross</h4>
+                    <p> Denice W. Ross is a Public Interest Technology Fellow at New America.  She specializes in data transparency and civic engagement, with a focus on action at the local level. For an extended bio click <a href=#speakers>here </a> </p>
+                    <h4> others to be announced <h4>
+                    <!--<h4> Anne Dodge</h4>
+                    <p> Anne Dodge is the Executive Director of UChicago Urban.  At UChicago Urban, she works to make the university’s urban research more accessible, while serving as a guide to the university’s wide array of civic programs and nonprofit partnerships.  Prior to joining UChicago Urban, Anne was the Executive Director of the university’s Urban Network and an instructor at the Harris School of Public Policy. She holds a Master’s in City Planning from MIT, where her master’s thesis won the 2006 Ralph Adams Cram Award for the best thesis in the School of Architecture and Planning, and BA from Harvard with a joint concentration in Visual and Environmental Studies and History. </p>
+
+                </div>
+
+                <div class="col-sm-6">
+
+                    <h3 class="section-title"><br></h3>
+                    <h4> Demond Drummer</h4>
+                    <p> Demond Drummer is the Co-Founder and Executive Director of CoderSpace, an organization that creates engaging learning experiences to inspire a new generation of leaders and innovators. At CoderSpace, youth ages 14-17 learn to code, collaborate on local client projects and develop leadership skills for a digital world. Demond is also a founding member of the Resident Association of Greater Englewood (R.A.G.E.) and a long-time member of Chicago's open government movement. He was previously an Organizing Fellow with the New Organizing Institute and a field organizer for Barack Obama's primary campaign in South Carolina. Demond earned his BA from Morehouse College. </p>
+                </div>
+                <br>
+                <br>
+                <div class="col-sm-6">
+                    <h4> Nick Mader</h4>
+                    <p> Nicholas Mader is a Senior Researcher at Chapin Hall at the University of Chicago. His work focuses on improving outcomes for at-risk youth by guiding policy development and evaluating youth service programs in partnership with city agencies and non-profit providers. Nick is the co-organizer and research head of the Integrated Evaluation Project for Youth Support Service Providers in Chicago, working with a diverse coalition of non-profit providers to broker data linkages with city agencies, develop and apply quantitative methods for measuring impacts, and develop processes for enriching quantitative data to on-the-ground practices at providers sites around Chicago. He earned a Ph.D. in economics from the University of Wisconsin and a B.A. in mathematics and economics from Wesleyan University.</p>
+
+                </div>
+
+                <div class="col-sm-6">
+                    <h4> Andy Rasmussen</h4>
+                    <p> Andy Rasmussen helps coordinate the team running the Computer Science for All initiative at Chicago Public Schools. He is a nerd of all trades, but his focus tends to be on languages and solving hard problems. His background is in theoretical chemistry, and discovered a passion for computer science and CS education during his time at Northwestern University. </p>
+                </div>
+            </div>
+        </div>
+
+                <div class="col-sm-6">
+                    <h4> Anne Rogers</h4>
+                    <p> Anne Rogers is the Director of the Masters Program in Computer Science (MPCS) and faculty co-Director of the Computational Analysis and Public Policy Masters Program (MSCAPP), a joint effort of the UChicago Harris School of Public Policy and the Department of Computer Science. As an Associate Professor in Computer Science at UChicago, she spends a lot of her time teaching computational thinking. Anne is also a recipient of the Quantrell (Llewellyn John and Harriet Manchester Quantrell) Award for Excellence in Undergraduate Teaching (2010). </p>
+                </div>
+            </div>
+        </div> -->
+    </section>
+<br>
+
+    <section id="location" class="section location">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h3 class="section-title">Location</h3>
+                    <h4>TBD</h4>
+                    <!--<address>
+                        <p>Polsky Exchange - Mezzanine Level<br>1452 E 53rd St, Chicago, IL 60615<br> 2nd Floor<br> Phone: (773) 702-2076<br> Email: ChicagoSouthSideCivic@gmail.com</p>
+                    </address>
+                </div>
+                <div class="col-sm-9">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11897.306073579257!2d-87.589686!3d41.799726!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcf38dee0aa342b85!2sChicago+Innovation+Exchange+(CIE)!5e0!3m2!1sen!2sus!4v1442166981926" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+                </div>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+
+    <section id="partner" class="section partner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">Partners</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                    <p> Our partners, and sponsors include: UChicago Computational Analysis and Public Policy of the Harris Public Policy School (CAPP), UChicago Department of Computer Science, UChicago Center for Data Science and Public Policy (DSAPP), Microsoft-Chicago Civic Tech, UChicago Urban Network, UChicago Polsky Exchange, and UChicago Institute of Politics (IOP).</p>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-1"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-4"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-5"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-6"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-7"></a>
+                </div>
+                <div class="col-sm-4">
+                    <a class="partner-box partner-box-2"></a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+<br>
+    <section id="faq" class="section faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="section-title">FAQ</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+
+                       <!-- <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingOne">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne"> What is a Civic ScopeAthon?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+                                <div class="panel-body">
+                                  <p>The main objective of our ScopeAthon is to take a civic-minded or community-based problem and to form committed groups to scope out the problem, breaking it down into its parts and developing a plan to address the problem. The solutions may or may not be entirely tech-oriented, or only parts of the solution may have a tech component.</p>
+
+                                  <p>At our Civic ScopeAthon you will gain problem-scoping skills, learn about other civic-tech organizations, network with community leaders, and join a team and enjoy the thrill and excitement of a hackathon.</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTwo">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Where is it?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                <div class="panel-body">
+                                  <p><a href="#location" style="color:#87CAEB">Chicago Innovation Exchange</a>, 1452 E 53rd St, Chicago, IL 60615 2nd floor</p>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingThree">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> When is it?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                <div class="panel-body">
+                                  <p>Saturday, October 8th.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFour">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour"> Who should attend?</a>
+                                </h4>
+                            </div>-->
+
+                            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                                <div class="panel-body">
+                                  <p>The ScopeAthon is open to the entire University of Chicago community as well as interested community members working anywhere from the public/non-profit sector to the private sector.</p>
+
+                                  <p>Participants will come from various backgrounds, including, but not limited to, computer science, political science and public policy, economics, geography, visual art, and civic innovation and leadership.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingFive">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive"> Do I need to know how to code?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                                <div class="panel-body">
+                                  <p>No. We want a diverse array of skills present at the scopeathon, which means that even if you can’t code, we want you there!
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSix">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> Is there a competition? Are there prizes?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
+                                <div class="panel-body">
+                                  <p>Teams will present their work to a panel of expert judges and compete for prestige at the end of the day on Saturday. </p><p> The real prize for our civic scopeathon is the opportunity for teams to continue their work after the ScopeAthon. While there is no formal pipeline from the ScopeAthon to project completion. Representatives from the Community Action Bureau, the <a href="https://www.uchicagotechteam.com/" style="color:#87CAEB">Tech Team</a>, <a href="/" style="color:#87CAEB">South Side Civic</a>, and other affilitated institutions will be present at the ScopeAthon.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingExample">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"> What’s this problem-scoping thing? Do you have an example?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseExample" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingExample">
+                                <div class="panel-body">
+                                  <p>Here’s an example of a civic problem and successful solution:</p>
+
+                                  <p>Problem/objective: A maternal health provider wants to optimize locations for birth-outcomes clinics given limited resources</p>
+                                  <p>Data: Birth outcomes data, census tract data</p>
+                                  <p>Improved Technique: Switching from analysis by county to analysis by census tract</p>
+                                  <p>Solution: Build a map by census tract that better illustrates the number and proportion of birth outcomes in a given area</p>
+
+                                  <br>
+
+                                  <p>Here are examples of the types of projects we won’t be working on:</p>
+                                  <p>Data exploration without a question/problem in mind (i.e. "Here’s all of our data, now tell us something!")</p>
+                                  <p>Building a website or app/making your website/app prettier</p>
+
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingSeven">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> How do I join a team?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
+                                <div class="panel-body">
+                                <p>Register for a team when you sign up on <a href="https://www.eventbrite.com/e/uchicago-third-annual-civic-scopeathon-tickets-37661686117">Eventbrite</a>. Check out our website beforehand and find some problems you’re interested in working on! We will keep updating the website with organizations that will be at the scopeathon.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingEight">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight"> Do I need a laptop?</a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEight">
+                                <div class="panel-body">
+                                  <p>A laptop will be useful on Saturday. <!--If you can’t bring one on Saturday, contact us, <a href="mailto:chicagosouthsidecivic@gmail.com">ChicagoSouthSideCivic(at)gmail.com</a> and we will work something out.-->
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingTen">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTen" aria-expanded="false" aria-controls="collapseTen"> Do I have to stay the whole time on Saturday? </a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseTen" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTen">
+                                <div class="panel-body">
+                                  <p>Saturday’s workshops build upon one another to provide a “problem-scoping toolkit” by the end of the event. Coming for just the afternoon or just the morning will diminish your opportunity to fully engage in the scopeathon. So, email us if you have concerns about scheduling conflicts.
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="headingEleven">
+                                <h4 class="panel-title">
+                                    <a class="faq-toggle collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven"> Who’s planning this and how can I get involved? </a>
+                                </h4>
+                            </div>
+
+                            <div id="collapseEleven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingEleven">
+                                <div class="panel-body">
+                                  <p>The Civic ScopeAthon is a joint effort with South Side Civic, a CAPP student-led group, UChicago’s Department of Computer Science, and the Harris School of Public Policy. </p>
+
+                                  <p>Contact <a href="mailto:chicagosouthsidecivic@gmail.com">ChicagoSouthSideCivic(at)gmail.com</a> to learn more, or volunteer at the event!
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </section>
+<br>
+
+    <!-- script -->
+    <script src="static/js/jquery/dist/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="static/js/main.js"></script>
+
+</div>
+
+</body>
+
+{% endblock %}
+
+</html>
