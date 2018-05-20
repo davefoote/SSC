@@ -17,7 +17,8 @@ ul li {
   margin-bottom: 10px;
 }
 html,body{
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+	/* font-family: 'Open Sans', sans-serif; */
 }
 body a{
     transition:0.5s all;
@@ -39,7 +40,8 @@ body a{
 }
 
 .head-nav {
-  float: right;
+  /* float: right; */
+  text-align: center;
   margin: 1.69em 0;
 }
 .head-nav ul{
@@ -48,7 +50,7 @@ body a{
 }
 .head-nav ul li{
 	display:inline-block;
-	float:left;
+	/* float:left; */
 }
 .head-nav ul li a{
 	position: relative;
@@ -103,7 +105,7 @@ ul a:focus {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 
-.cl-effect-16 a::before {
+/* .cl-effect-16 a::before {
 	color:#090909;
 	content: attr(data-hover);
 	position: absolute;
@@ -123,7 +125,7 @@ ul a:focus {
 	-moz-transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	transform: scale(1) translateX(0px) translateY(0px) rotate(0deg);
 	opacity: 1;
-}
+} */
 .logo {
   float: left;
 }
@@ -136,7 +138,7 @@ ul a:focus {
 }
 .jumbotron {
   position: relative;
-  background-image: url("/static/images/bronzeville_mural.jpg");
+  /* background-image: url("/static/images/bronzeville_mural.jpg"); */
   background-size: 100%;
   color: #000;
   min-height: 300px;
@@ -382,9 +384,9 @@ ul a:focus {
   margin-top: 15px;
 }
 .faq .panel-default > .panel-heading {
-  color: #FFF;
-  background-color: #A9A9A9;
-  border-color: #000;
+  color: #5d5d5d;
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
   border-radius: 0;
   padding: 0;
 }
@@ -410,7 +412,7 @@ ul a:focus {
   min-height: 30vh;
   position: relative;
   text-align: center;
-  background: url("/static/images/Civic-Scopeathon-Graphics-Facebook.png") no-repeat center center/cover;
+  /* background: url("/static/images/map_logo.jpg") no-repeat center center/cover;  */
 }
 .site-header::before {
   content: "";
@@ -419,10 +421,10 @@ ul a:focus {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: transparent;
 }
 .site-header .intro {
-  color: #fff;
+  color: #5d5d5d;
   position: relative;
   text-align: center;
   text-transform: uppercase;
@@ -431,7 +433,7 @@ ul a:focus {
   padding: 0 15px;
 }
 .site-header .intro h2 {
-  color: #fff;
+  color: #5d5d5d;
   margin-top: 0px;
   font-size: 25px;
   font-weight: 300;
@@ -631,10 +633,10 @@ i.rss:hover {
   line-height: 1.8em;
   margin: 1em 0;
 }
-.footer {
+/* .footer {
   background: #e2e2e2;
   padding: 2em 0;
-}
+} */
 .foot-nav ul {
   padding: 0;
 }
