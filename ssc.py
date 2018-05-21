@@ -87,6 +87,9 @@ def contact():
 def error():
 	return render_template('404.html')
 
+@app.route('/participants')
+def participants():
+	return render_template('participants.html', participants_flag = True)
 
 if __name__ == '__main__':
 	app.run(host='0.0.0.0')

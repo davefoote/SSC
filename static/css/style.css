@@ -1,5 +1,4 @@
 
-
 /*Author: W3layouts
 Author URL: http://w3layouts.com
 License: Creative Commons Attribution 3.0 Unported
@@ -105,6 +104,43 @@ ul a:focus {
 	text-shadow: 0 0 1px rgba(111,134,134,0.3);
 }
 
+.py-200 {
+    padding: 50px 0px 250px 0px !important;
+}
+.my-200 {
+    margin: 200px 0px 200px 0px !important;
+}
+
+.center-horizontal {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-lg {
+  padding: 10% 20% 10% 20%;
+  background-color: #B3DDF2;
+  font-size: 2.5em;
+  text-decoration: none;
+  border: none;
+}
+
+.btn-lg:hover {
+  background-color: #FF5E5E;
+}
+
+.btn-left {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.btn-right {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 /* .cl-effect-16 a::before {
 	color:#090909;
 	content: attr(data-hover);
@@ -1886,4 +1922,11 @@ a.vew {
 .services-top-left {
   padding: 0 0.4em;
 }
+}
+
+.interest-form {
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 0.2em 0.2em;
 }
