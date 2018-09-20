@@ -4,7 +4,7 @@
     <h3 class="agenda-date-label">Friday, October 12</h1>
   </div>
     <div class="agenda-day">
-      {% for event in day1_events %}
+      {% for event in events["day1"] %}
         <div class="agenda-item">
           <img width="23" src="static/images/maroon_circle_256.png">
           <div>
@@ -23,7 +23,7 @@
     <h3 class="agenda-date-label">Saturday, October 13</h1>
   </div>
   <div class="agenda-day">
-    {% for event in day2_events %}
+    {% for event in events["day2"] %}
       <div class="agenda-item">
         <img width="23" src="static/images/maroon_circle_256.png">
         <div>

@@ -38,19 +38,16 @@ def get_events_lists():
 
 
 def get_scopeathon_schedule():
-    """Return ordered agenda lists for the two scopeathon days.
+    """Return ordered agenda dict for the two scopeathon days.
 
-    :return: <Tuple(List, List)> Return day1 and day2 scopeathon event lists
+    :return: <Dict> Return day1 and day2 scopeathon event lists
     """
-    day1_events = day2_events = []
+    events = []
 
-    with open('static/agenda/agenda_2018_fri.json') as file:
-        day1_events = json.load(file)
+    with open('static/agenda/agenda_2018.json') as file:
+        events = json.load(file)
 
-    with open('static/agenda/agenda_2018_sat.json') as file:
-        day2_events = json.load(file)
-
-    return day1_events, day2_events
+    return events
 
 
 # makes event.txt into dictionary
@@ -84,10 +81,9 @@ def about():
 @app.route('/scopeathon')
 def scopeathon():
     _, past = get_events_lists()
-    day1_events, day2_events = get_scopeathon_schedule()
+    events = get_scopeathon_schedule()
     past.reverse()
-    return render_template('2018scopeathon.html', day1_events=day1_events,
-                           day2_events=day2_events, past=past, hack_flag=True)
+    return render_template('2018scopeathon.html', events=events, past=past, hack_flag=True)
 
 
 @app.route('/events_archive')
