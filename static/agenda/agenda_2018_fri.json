@@ -1,0 +1,29 @@
+[
+  {
+      "start": "4:15 PM",
+      "end": "4:30 PM",
+      "name": "Check-In"
+  },
+  {
+    "start": "4:30 PM",
+    "end": "5:30 PM",
+    "name": "Workshop"
+  },
+  {
+    "start": "5:30 PM",
+    "end": "6:30 PM",
+    "name": "Keynote Speaker Address",
+    "description": "Presentation by Matt Pazoles, Chief Data Scientist at the Center for Government Excellence at Johns Hopkins University"
+  },
+  {
+    "start": "6:30 PM",
+    "end": "7:15 PM",
+    "name": "Meet the 2018 Scopeathon Community Organizations",
+    "description": "Introductions by Organization Leaders"
+  },
+  {
+    "start": "7:15 PM",
+    "end": "8:00 PM",
+    "name": "Networking Reception"
+  }
+]
